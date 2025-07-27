@@ -1,23 +1,35 @@
 body {
     padding: 10px;
+    background-color: #E19688;
 }
 
 .container {
     display: flex;
-    gap: 10px;
-    height: 250px;
+    gap: 30px;
+    height: 350px;
     justify-content: center;
     align-items: center;
+    margin: 0 200px;
 }
 
 .container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     padding: 20px;
-    border: 2px dotted gray;
-    border-radius: 10px;
     flex-grow: 1;
-    height: 250px;
+    height: 350px;
     background-color: #ebbaba;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 7px 7px 3px lightgray;
+}
+
+
+.container h2 {
+    align-self:flex-start;
 }
 
 
@@ -28,6 +40,7 @@ body {
     justify-content: space-around;
 }
 
+
 a {
     text-decoration: none;
     color: black;
@@ -37,3 +50,14 @@ a {
 .container p {
     font-style: italic;
 }
+
+.ingredients,
+.reasons {
+    margin: 50px 200px;
+    font-size: larger;
+    padding: 10px 20px;
+    border: 2px dotted gray;
+    background-color: #ebbaba;
+    border-radius: 10px;
+}
+

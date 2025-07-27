@@ -3,12 +3,16 @@ h1 {
     color: #330F14;
 }
 
+body {
+    background-color: #E19688;
+}
 
 
 .cards {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .card {
@@ -19,10 +23,11 @@ h1 {
     background-color:  #ebbaba;
     border-radius: 10px;
     box-shadow: 7px 7px 3px lightgray;
+    font-size: larger;
 }
 
 img {
-    height: 180px;
+    height: 200px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
