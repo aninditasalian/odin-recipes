@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    color: #330F14;
+}
+
+
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    background-color:  #ebbaba;
+    border-radius: 10px;
+    box-shadow: 7px 7px 3px lightgray;
+}
+
+img {
+    height: 180px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}

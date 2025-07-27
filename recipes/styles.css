@@ -1,0 +1,39 @@
+body {
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 2px dotted gray;
+    border-radius: 10px;
+    flex-grow: 1;
+    height: 250px;
+    background-color: #ebbaba;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.container p {
+    font-style: italic;
+}
